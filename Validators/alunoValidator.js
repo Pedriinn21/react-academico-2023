@@ -13,9 +13,7 @@ const alunoValidator = Yup.object().shape({
     .required('campo obrigatorio'),
   email: Yup.string()
     .email('formato inválido')
-    .required('campo obrigatorio'),
-  telefone: Yup.string()
-    .required('campo obrigatorio'),
+    .required('campo obrigatorio')
 });
 
   export default alunoValidator

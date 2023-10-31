@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useFocusEffect } from '@react-navigation/native'
 import React, { useEffect, useState } from 'react'
 import { ScrollView, View } from 'react-native'
-import { Button, Card, Dialog, FAB, IconButton, MD3DarkTheme, Portal, Text } from 'react-native-paper'
+import { Button, Card, Dialog, FAB, IconButton, Portal, Text } from 'react-native-paper'
 
 const Cursos = ({ navigation }) => {
 
